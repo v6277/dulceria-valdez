@@ -1,0 +1,295 @@
+@font-face {
+    font-family: AvenirNextRegular;
+    src: url('../FONT/AvenirNextLTPro-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: AvenirNextBold;
+    src: url('../FONT/AvenirNextLTPro-Bold.otf') format('truetype');
+}
+
+.body {
+    font-family: AvenirNextRegular;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header {
+    position: fixed;
+    max-width: 1440px;
+    z-index: 1;
+}
+
+.header-stripes {
+    width: 100%;
+    top: 0;
+}
+
+/*Possibly reduntant code*/
+.sticky {
+    position: fixed;
+    top: -20px; 
+    width: 100%
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 30%;
+}
+
+/*Possibly Unnecesary*/
+.carousel {
+    object-position: top;
+}
+
+.slideshow {
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: -30px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    right: 25%;
+}
+  
+  .active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.midpage {
+    width: 100%;
+}
+
+.nav-row { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;   
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nav-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.contact-section {
+    display: block;
+    position: relative;
+    height: 800px;
+
+    background-image: url("../photos/midpage-background.png");
+    background-repeat: no-repeat;   
+    background-position-y: bottom;
+}
+
+.contact-flex-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 400px;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+
+.contact-text {
+    display: block;
+}
+
+.contact-text > h2 {
+    font-size: 31px;
+    color: #ec4949;
+}
+
+.contact-text > h1 {
+    font-family: AvenirNextBold;
+}
+
+.contact-form {
+    display: block;
+    bottom: 0;
+    
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
+    height: 175px;
+    border-radius: 5px;
+}
+
+.form-box { 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    resize: vertical; 
+}
+
+.submit-button {
+    margin-top: 10px;
+    background-color: #f5989d;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 2px 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #d28287;
+}
+
+.submit-button {
+    float: right;
+    width: 122px;
+    height: 32px;
+    font-size: 24px;
+}
+
+.mascot {
+    position: absolute;
+    bottom: 120px;
+    right: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-row { 
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .contact-flex-container {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+        width: 50px;
+    }
+
+    .figcaption {
+        text-align: center;
+    }
+
+    .contact-form {
+        margin: auto;
+    }
+
+    .mascot {
+        display: none;
+    }
+}
+
+.embedded-map {
+    width: 100%;
+    height: 550px;
+}
+
+iframe {
+    display: block;
+}
+
+.footer {
+    background-color: #0442d5;
+    width: 100%;
+    height: 200px;
+    margin-top: none;
+}

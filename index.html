@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dulceria Valdez</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="Keywords" content="Ducleria, Dulceria Valdez">
+<link rel="stylesheet" href="stylesheets/styles.css">
+
+</head>
+
+<body class="body">
+    <!--Persistant header-->
+    <div class="header" id="header">
+        <!--Techo-->
+        <img src="photos/techo.png" 
+             alt="Cabezera"
+             class="header-stripes">
+        <!--Logo-->
+        <img src="photos/logo.png"
+             alt="logo"
+             class="logo">
+    </div>
+    <!--End of persistant header-->
+
+    <!--Code for carousel, carousel div might be redundant-->
+    <div class="carousel">
+        <!--Actual start of carousel-->
+        <div class="slideshow">
+            <div class="mySlides fade">
+                <img src="photos/jellybeans.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="photos/img2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="photos/img3.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center" class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            
+            <script src="script/carousel-script.js"></script>          
+        </div>
+    </div>
+    <!--End of carousel-->
+
+    <!--Start of midpage, includes centered nav menu and contact info-->
+    <div class="midpage">
+        <!--Nav box-->
+
+        <!--Clean up double nav-button class for parent and child-->
+        <div class="nav-row">
+            <div class="nav-button">
+                <a href="#">
+                    <figure class="nav-button">
+                        <img class="nav-image"
+                                src="photos/candy.png"
+                                alt="Dulceria">
+                        <figcaption>DULCERIA</figcaption>
+                    </figure></a>
+            </div>
+            <div class="nav-button">
+                <a href="#">
+                    <figure class="nav-button">
+                        <img class="nav-image"
+                                src="photos/evento.png"
+                                alt="Globos y Fiestas">
+                        <figcaption>GLOBOS Y FIESTAS</figcaption>
+                    </figure></a>
+            </div>
+            <div class="nav-button">
+                <a href="#">
+                    <figure class="nav-button">
+                        <img class="nav-image"
+                                src="photos/desechables.png"
+                                alt="Plasticos y Biodegradables">
+                        <figcaption>PLASTICOS Y BIODEGRADABLES</figcaption>
+                    </figure></a>
+            </div> 
+        </div>
+
+        <div class="nav-row">
+            <div class="nav-button">
+                <a href="#">
+                    <figure class="nav-button">
+                        <img class="nav-image"
+                                src="photos/prima.png"
+                                alt="Materias Primas">
+                        <figcaption>MATERIAS PRIMAS</figcaption>
+                    </figure></a>
+            </div>
+            <div class="nav-button">
+                <a href="#">
+                    <figure class="nav-button">
+                        <img class="nav-image"
+                                src="photos/decoracion.png"
+                                alt="Decoración de Eventos">
+                        <figcaption>DECORACIÓN DE EVENTOS</figcaption>
+                    </figure></a>
+            </div>
+            <div class="nav-button">
+                <a href="#">
+                    <figure class="nav-button">
+                        <img class="nav-image"
+                                src="photos/abarrotes.png"
+                                alt="Abarrotes">
+                        <figcaption>ABARROTES</figcaption>
+                    </figure></a>
+            </div> 
+        </div>
+
+        <!--Contact section-->
+        <div class="contact-section">
+
+            <div class="contact-flex-container">
+                <div class="contact-text">
+                    <h2>¡Tenemos servicio a domicilio!</h2>
+                    <h1>Contáctanos</h1>
+                </div>
+                <div class="contact-links">
+                    <a href="https://www.facebook.com/DulceriaValdez.mx/"
+                       target="_blank">
+                        <img src="photos/fb-logo.png" 
+                             alt="Link de la pagina de Facebook de Dulceria Valdez">
+                    </a>
+                    <a href="https://www.facebook.com/DulceriaValdez.mx/"
+                       target="_blank">
+                        <img src="photos/wsp-logo.png" 
+                             alt="Link de la pagina de Facebook de Dulceria Valdez">
+                    </a>
+                    <a href="https://www.facebook.com/DulceriaValdez.mx/"
+                       target="_blank">
+                        <img src="photos/insta-logo.png" 
+                             alt="Link de la pagina de Facebook de Dulceria Valdez">
+                    </a>
+                    <a href="https://www.facebook.com/DulceriaValdez.mx/"
+                       target="_blank">
+                        <img src="photos/fb-logo.png" 
+                             alt="Link de la pagina de Facebook de Dulceria Valdez">
+                    </a>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input class="form-box"
+                               type="text" 
+                               id="email" 
+                               name="email" 
+                               placeholder="Correo Electrónico"><br>
+                        <input class="form-box"
+                               type="text" 
+                               id="name" 
+                               name="name" 
+                               placeholder="Nombre"><br>
+                        <textarea id="message" 
+                                  name="message" 
+                                  placeholder="Mensaje" 
+                                  wrap="hard"></textarea>
+                        <input class="submit-button"
+                               type="submit" 
+                               value="enviar">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="mascot">
+                <img src="photos/mono1.png" alt="Mono de bonbon">
+            </div>
+        </div>
+    </div>
+    <!--End of midpage-->
+
+    <!--Map section-->
+    <div class="maps">
+        <iframe class="embedded-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.185282045607!2d-106.41689438460348!3d23.272716412771718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8698acc7daaaaaab%3A0x5e6baef184bcf766!2sSuper%20Dulcer%C3%ADa%20Valdez%20S.A.%20de%20C.V.!5e0!3m2!1sen!2smx!4v1582151207100!5m2!1sen!2smx"
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen="">
+        </iframe>
+    </div>
+    <!--End of map section-->
+
+    <!--Beginning of footer-->
+    <footer class="footer">
+        
+    </footer>
+    <!--End of footer-->
+
+    <script src="script/persistant-header.js"></script>
+</body>
+</html>

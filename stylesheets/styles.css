@@ -182,15 +182,27 @@
 
 .contact-text {
     display: block;
+    margin-bottom: 20px;
 }
 
 .contact-text > h2 {
     font-size: 31px;
+    white-space: nowrap;
     color: #ec4949;
 }
 
 .contact-text > h1 {
     font-family: AvenirNextBold;
+    font-size: 50px;
+    color: #0442d5;
+    margin-top: -20px;
+
+}
+
+.contact-links-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .contact-form {
@@ -246,7 +258,8 @@ textarea {
     right: 200px;
 }
 
-@media only screen and (max-width: 600px) {
+/* Max-width decided based on mascot position in midpage */
+@media only screen and (max-width: 1150px) {
     .nav-row { 
         display: none;
         flex-wrap: wrap;

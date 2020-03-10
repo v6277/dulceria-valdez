@@ -307,8 +307,34 @@ iframe {
 }
 
 .footer {
+    display: flex;
     background-color: #0442d5;
     width: 100%;
     height: 200px;
-    margin-top: none;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.footer-text {
+    font-family: AvenirNextBold;
+    color: white;
+    margin-top: auto;
+}
+
+.footer-mark {
+    font-size: 20px;
+}
+
+.footer-info {
+    text-align: right;
+    display: flex;
+}
+
+.footer-info pre {
+    align-self: center;
 }

@@ -1,11 +1,11 @@
 @font-face {
     font-family: AvenirNextRegular;
-    src: url('../FONT/AvenirNextLTPro-Regular.otf') format('truetype');
+    src: url('../font/AvenirNextLTPro-Regular.otf') format('truetype');
 }
 
 @font-face {
     font-family: AvenirNextBold;
-    src: url('../FONT/AvenirNextLTPro-Bold.otf') format('truetype');
+    src: url('../font/AvenirNextLTPro-Bold.otf') format('truetype');
 }
 
 .body {
@@ -335,6 +335,6 @@ iframe {
     display: flex;
 }
 
-.footer-info pre {
+.footer-info p {
     align-self: center;
 }

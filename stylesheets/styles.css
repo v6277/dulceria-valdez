@@ -177,12 +177,12 @@
     width: 400px;
     bottom: 0;
     margin-bottom: 30px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .contact-text {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-text > h2 {
@@ -202,13 +202,19 @@
 .contact-links-flex {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.contact-links-flex img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-form {
     display: block;
     bottom: 0;
-    
 }
 
 textarea {

@@ -48,6 +48,8 @@
 /*Possibly Unnecesary*/
 .carousel {
     object-position: top;
+    height: 50vw;
+    overflow: hidden;
 }
 
 .slideshow {
@@ -62,7 +64,7 @@
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -115,7 +117,7 @@
 
 .dots {
     position: absolute;
-    bottom: 5%;
+    bottom: 30%;
     left: 25%;
     right: 25%;
 }

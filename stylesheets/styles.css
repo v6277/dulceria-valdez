@@ -34,7 +34,7 @@
 /*Possibly reduntant code*/
 .sticky {
     position: fixed;
-    top: -20px; 
+    top: -85px; 
     width: 100%
 }
 
@@ -316,6 +316,10 @@ iframe {
 
 /* Max-width decided based on mascot position in midpage */
 @media only screen and (max-width: 1150px) {
+    .sticky {
+        top: -20px; 
+    }
+
     .nav-row { 
         display: none;
         flex-wrap: wrap;

@@ -172,11 +172,10 @@
 .contact-section {
     display: block;
     position: relative;
-    height: 800px;
-
+    height: 1000px;
     background-image: url("../photos/midpage-background.png");
-    background-size: 100%;
-    background-repeat: no-repeat;   
+    background-size: 1920px;
+    background-repeat: repeat-x;   
     background-position-y: bottom;
 }
 
@@ -187,12 +186,12 @@
     width: 400px;
     bottom: 0;
     margin-bottom: 120px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .contact-text {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 120px;    
 }
 
 .contact-text > h2 {

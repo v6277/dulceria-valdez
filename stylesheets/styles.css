@@ -426,11 +426,6 @@ iframe {
         text-align: center;
     }
 
-    figcaption {
-        display: block;
-        margin-top: 20px;
-    }
-
     .contact-section {
         height: 615px;
         background-image: url("../photos/midpage-background-mobile.png");
@@ -451,7 +446,7 @@ iframe {
     }
     
     .contact-text > h2 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
     
     .contact-text > h1 {
@@ -518,5 +513,17 @@ iframe {
 
     .footer {
         height: 350px;
+    }
+
+    /* iphone 4 and small devices fix*/
+    @media only screen and (max-width: 320px) {
+        .nav-image {
+            width: 90px;
+        }
+
+        figcaption {
+            font-size: 12px;
+            -webkit-text-size-adjust: 100%;
+        }
     }
 }

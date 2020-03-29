@@ -30,6 +30,8 @@
     position: absolute;
     width: 100%;
     top: -135px;
+    -webkit-filter: drop-shadow(0px 0px 10px #222);
+    filter: drop-shadow(0px 0px 10px #222);
 }
 
 /*Possibly reduntant code*/
@@ -44,6 +46,8 @@
     top: -30px;
     left: 40%;
     width: 20%;
+    -webkit-filter: drop-shadow(0px 0px 10px #222);
+    filter: drop-shadow(0px 0px 10px #222);
 }
 
 /*Possibly Unnecesary*/
@@ -153,6 +157,7 @@
 .midpage {
     width: 100%;
     background-color: white;
+    box-shadow: 0px -1px 50px 5px black;
 }
 
 .nav-div {
@@ -297,6 +302,8 @@ textarea {
     position: absolute;
     bottom: 120px;
     right: 300px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 

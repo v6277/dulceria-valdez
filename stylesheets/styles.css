@@ -307,7 +307,7 @@ textarea {
 .mascot {
     position: absolute;
     bottom: 120px;
-    right: 300px;
+    left: 60vw;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
 }
@@ -355,8 +355,31 @@ iframe {
     align-self: center;
 }
 
+@media only screen and (max-width: 1200px) {
+
+    .header {
+        top: 30px;
+    }
+
+    .header-stripes {
+        top: -80px;
+    }
+
+    .carousel {
+        height: 65vw;
+    }
+
+    .mascot {
+        position: absolute;
+        bottom: 120px;
+        left: -50px;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px #222);
+    }
+}
+
 /* Max-width decided based on mascot position in midpage - 1150px*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 767px) {
 
     .carousel {
         height: 65vw;
@@ -386,7 +409,7 @@ iframe {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        /*justify-content: space-evenly;*/
+        justify-content: space-evenly;
         max-width: 75%;
         margin-left: auto;
         margin-right: auto;
@@ -406,6 +429,11 @@ iframe {
     figcaption {
         display: block;
         margin-top: 20px;
+    }
+
+    .contact-section {
+        height: 615px;
+        background-size: 100%;
     }
 
     .contact-flex-container {

@@ -227,50 +227,56 @@
 }
 
 textarea {
+    font-family: AvenirNext;
     resize: none;
     overflow: hidden;
     overflow-y: auto;
     width: 100%;
     box-sizing: border-box;
     height: 175px;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .form-box { 
+    font-family: AvenirNext;
+    font-size: 12px;
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 15px;
     box-sizing: border-box;
     margin-bottom: 10px;
     resize: vertical; 
 }
 
 .submit-button {
+    font-family: AvenirNextBold;
     margin-top: 10px;
-    background-color: #f5989d;
-    color: white;
+    background-color: white;
+    color: #0442d5;
     border: none;
-    border-radius: 15px;
-    padding: 2px 20px;
+    border-radius: 25px;
+    padding: 12px 20px;
     cursor: pointer;
 }
 
 .submit-button:hover {
-    background-color: #d28287;
+    background-color: #0442d5;
+    color: white;
 }
 
 .submit-button {
-    float: right;
+    float: left;
     width: 122px;
-    height: 32px;
+    height: 52px;
     font-size: 24px;
 }
 
 .mascot {
     position: absolute;
     bottom: 120px;
-    right: 200px;
+    right: 300px;
 }
 
 

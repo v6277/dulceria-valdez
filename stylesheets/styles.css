@@ -433,7 +433,9 @@ iframe {
 
     .contact-section {
         height: 615px;
+        background-image: url("../photos/midpage-background-mobile.png");
         background-size: 100%;
+        background-position-y: bottom;
     }
 
     .contact-flex-container {

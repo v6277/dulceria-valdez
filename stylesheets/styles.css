@@ -27,22 +27,23 @@
 }
 
 .header-stripes {
+    position: absolute;
     width: 100%;
-    top: 0;
+    top: -85px;
 }
 
 /*Possibly reduntant code*/
 .sticky {
     position: fixed;
-    top: -85px; 
+    /*top: -85px;*/
     width: 100%
 }
 
 .logo {
     position: absolute;
     top: 0;
-    left: 35%;
-    width: 30%;
+    left: 40%;
+    width: 20%;
 }
 
 /*Possibly Unnecesary*/

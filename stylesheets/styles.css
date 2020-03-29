@@ -35,11 +35,13 @@
 }
 
 /*Possibly reduntant code*/
-.sticky {
+/* .sticky {
     position: fixed;
-    /*top: -85px;*/
+    top: -85px;
     width: 100%
-}
+}*/
+
+
 
 .logo {
     position: relative;
@@ -162,6 +164,10 @@
 
 .nav-div {
     padding-top: 50px;
+}
+
+.nav-row-mobile {
+    display: none;
 }
 
 .nav-row { 
@@ -349,32 +355,61 @@ iframe {
     align-self: center;
 }
 
-/* Max-width decided based on mascot position in midpage */
-@media only screen and (max-width: 1150px) {
-    .sticky {
-        top: -20px; 
+/* Max-width decided based on mascot position in midpage - 1150px*/
+@media only screen and (max-width: 900px) {
+
+    .carousel {
+        height: 65vw;
     }
+
+    .header {
+        top: 20px;
+    }
+
+    .header-stripes {
+        top: -50px;
+    }
+
+    .prev, .next {
+        top: 5vw;
+    }
+
+    /*.sticky {
+        top: -20px; 
+    }*/
 
     .nav-row { 
         display: none;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 100%;
-        margin: auto;
-        margin-top: 50px;
     }
 
-    .contact-flex-container {
-        display: none;
+    .nav-row-mobile { 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /*justify-content: space-evenly;*/
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        text-align: center;
     }
 
     .nav-button {
         display: block;
-        width: 50px;
+        max-width: 120px;
     }
 
     .figcaption {
         text-align: center;
+    }
+
+    figcaption {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .contact-flex-container {
+        display: none;
     }
 
     .contact-form {

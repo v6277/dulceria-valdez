@@ -103,6 +103,7 @@ $headers = 'From: '.$email_from."\r\n".
       <h2>Estaremos en contácto con usted pronto.</h2>
     </div>
 
+    <script src="script/persistant-header.js"></script>
 </body>
 
 <?php

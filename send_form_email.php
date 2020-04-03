@@ -72,10 +72,37 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Dulceria Valdez</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="Keywords" content="Dulceria, Dulceria Valdez">
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+</head>
+
+<body class="body">
+    <!--Persistant header-->
+    <div class="header" id="header">
+        <!--Techo-->
+        <img src="photos/techo.png" 
+             alt="Cabezera"
+             class="header-stripes">
+        <!--Logo-->
+        <img src="photos/logo.png"
+             alt="logo"
+             class="logo">
+    </div>
+
 ¡Gracias por contactárnos! 
 Estaremos en contácto con usted pronto.
 
+</body>
+
 <?php
- 
+  
 }
 ?>

@@ -101,6 +101,7 @@ $headers = 'From: '.$email_from."\r\n".
     <div class="form-message"> 
       <h1>¡Gracias por contactárnos!</h1>
       <h2>Estaremos en contácto con usted pronto.</h2>
+      <button onclick="self.close()">Regresar</button>
     </div>
 
     <script src="script/persistant-header.js"></script>

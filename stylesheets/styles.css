@@ -349,15 +349,20 @@ iframe {
 .footer-info {
     text-align: right;
     display: flex;
-}
-
-.footer-info p {
     align-self: center;
 }
 
 .attribution {
-    display: inline;
     font-size: 12px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.attribution a:hover {
+    color: #ec4949;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -355,6 +355,11 @@ iframe {
     align-self: center;
 }
 
+.attribution {
+    display: inline;
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 1200px) {
 
     .header {

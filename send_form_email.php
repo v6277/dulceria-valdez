@@ -20,9 +20,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['email']) ||
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
-    }
- 
-     
+    }  
  
     $name = $_POST['name']; // required
     $email_from = $_POST['email']; // required

@@ -2,12 +2,12 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "ygov.mx@gmail.com";
+    $email_to = "dulceriavaldez@hotmail.com";
     $email_subject = $_POST['name']." de ".$_POST['email'];
  
     function died($error) {
         // your error code can go here
-        echo "Lo sentimos pero hay error(es) en su formulario. ";
+        echo "Lo sentimos pero hay errores en su formulario.";
         echo "Estos errores son: <br /><br />";
         echo $error."<br /><br />";
         echo "Por favor regrese y arregle estos errores, gracias.<br /><br />";
@@ -19,7 +19,7 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['comments'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
+        died('Lo sentimos pero hay errores en su formulario.');       
     }  
  
     $name = $_POST['name']; // required
